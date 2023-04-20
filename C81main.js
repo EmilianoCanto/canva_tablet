@@ -37,10 +37,10 @@ function movement (e){
         }
     }
     
-canva.addEventListener("mousedown",circled);
+canva.addEventListener("touchstart",circled);
 function circled (e){
-    posx=e.clientX-canva.offsetLeft;
-    posy=e.clientY-canva.offsetTop;
+    posx=e.touches[0].clientX-canva.offsetLeft;
+    posy=e.touches[0].clientY-canva.offsetTop;
     dibujar(posx,posy);
     }
     function dibujar(){
