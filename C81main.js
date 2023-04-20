@@ -6,8 +6,8 @@ var lasty="";
 var gros=1;
 var figures="";
 var ancho=screen.width;
-var newanch=screen.width-70;
-var newalt=screen.height-300;
+ newanch=screen.width-70;
+ newalt=screen.height-300;
 if(ancho < 992){
     document.getElementById("canva").width=newanch;
     document.getElementById("canva").height=newalt;
