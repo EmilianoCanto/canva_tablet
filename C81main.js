@@ -9,8 +9,8 @@ var ancho=screen.width;
 var newanch=screen.width-70;
 var newalt=screen.height-300;
 if(ancho < 992){
-    canva.width=newanch;
-    canva.height=newalt;
+    document.getElementById("canva").width=newanch;
+    document.getElementById("canva").height=newalt;
     document.body.style.overflow="hidden";
 }
 canva.addEventListener("touchstart", inicio);
