@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>C81</title>
+<link rel="stylesheet" type="text/css" href="C81style.css">
+</head>
+<body class="body_backgorund">
+
+<center>
+	<h1>Mi Primer Lienzo</h1>
+	<p>escriba circulo en el apartado de figuras para empezar a dibujarlos</p>
+	<p>escriba cuadrado en el apartado de figuras para empezar a dibujarlos</p>
+	<p>deje vacio el apartado de figuras para trazar lineas</p>
+	<canvas id="canva" width="800" height="600" >
+
+	</canvas>
+	<br>
+	<span>
+		color:
+	</span>
+	<input type="text" id="color">
+	<br>
+	<span>
+		grosor:
+	</span>
+	<input type="text" id="grosor">
+	<br>
+	<span>
+		figura:
+	</span>
+	<input type="text" id="figura">
+	<br>
+	<button id="borrar" onclick="boton()">borrar</button>
+</center>
+<script src="C81main.js"></script>
+</body>
+</html>
